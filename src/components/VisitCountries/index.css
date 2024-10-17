@@ -1,0 +1,43 @@
+.visit-countries-bg-container {
+  background-color: #161624;
+  min-height: 100vh;
+  padding: 60px;
+  padding-top: 15px;
+}
+
+.visit-countries-heading {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.countries-name-container {
+  list-style-type: none;
+  background-color: #334155;
+  padding: 0px;
+  border-radius: 4px;
+  max-height: 377px;
+  overflow-y: auto;
+}
+
+.display-countries-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.no-countries {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 34px;
+}
+.no-countries-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

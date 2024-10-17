@@ -1,0 +1,31 @@
+.country-item {
+  margin-right: 5px;
+  background-color: #1f1f2f;
+}
+.countrie-img {
+  width: 300px;
+}
+.name-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.remove-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #cbd5e1;
+  color: #ffffff;
+  height: 38px;
+  width: 70px;
+  border-radius: 5px;
+}
+
+.country-name {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-weight: 500;
+}
